@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = `mongodb+srv://jessicaclarita:jessica123@cluster0.xb9iacy.mongodb.net/DeliBook?retryWrites=true&w=majority`;
+const db = process.env.MONGODB_URI;
 // by default is mongodb+srv://<username>:<password>@cluster0.xb9iacy.mongodb.net/?retryWrites=true&w=majority
 
 // connect to mongo db
